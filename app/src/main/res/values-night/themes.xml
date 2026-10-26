@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.ScanGenius" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#93C5FD</item>
+        <item name="colorOnPrimary">#0F172A</item>
+        <item name="colorPrimaryContainer">#1E293B</item>
+        <item name="colorOnPrimaryContainer">#F8FAFC</item>
+        <item name="colorSecondary">#38BDF8</item>
+        <item name="colorOnSecondary">#0F172A</item>
+        <item name="colorSecondaryContainer">#0369A1</item>
+        <item name="colorOnSecondaryContainer">#E0F2FE</item>
+        <item name="android:colorBackground">#0B0F19</item>
+        <item name="colorSurface">#131B2E</item>
+        <item name="colorOnSurface">#F8FAFC</item>
+        <item name="colorSurfaceVariant">#1E293B</item>
+        <item name="colorOnSurfaceVariant">#94A3B8</item>
+        <item name="colorOutline">#334155</item>
+        <item name="android:statusBarColor">#131B2E</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <style name="Theme.ScanGenius.Splash" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0B0F19</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_scan</item>
+        <item name="postSplashScreenTheme">@style/Theme.ScanGenius</item>
+    </style>
+</resources>

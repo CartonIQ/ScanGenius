@@ -1,0 +1,106 @@
+<resources>
+    <!-- App Information -->
+    <string name="app_name">ScanGenius</string>
+    <string name="app_tagline">Scan. Generate. Share.</string>
+
+    <!-- Navigation Tabs -->
+    <string name="nav_scan">Scan</string>
+    <string name="nav_generate">Generate</string>
+    <string name="nav_history">History</string>
+
+    <!-- Scan Screen -->
+    <string name="scan_title">Scan QR &amp; Barcode</string>
+    <string name="scan_subtitle">Point your camera at any QR code or barcode to scan instantly</string>
+    <string name="scan_btn_camera">Open Camera to Scan</string>
+    <string name="scan_btn_gallery">Scan from Gallery</string>
+    <string name="scan_switch_auto_open">Auto-open links</string>
+    <string name="scan_switch_auto_open_desc">Directly open valid web links in browser after scanning</string>
+    <string name="scan_flashlight">Flashlight</string>
+    <string name="scan_result_header">Scanned Result</string>
+    <string name="scan_result_placeholder">Scanned content will appear here</string>
+    <string name="scan_btn_copy">Copy</string>
+    <string name="scan_btn_open_url">Open URL</string>
+    <string name="scan_btn_save">Save to History</string>
+    <string name="scan_toast_copied">Copied to clipboard!</string>
+    <string name="scan_toast_saved">Saved to history!</string>
+    <string name="scan_toast_already_saved">Already in history</string>
+    <string name="scan_toast_no_code_found">No valid QR or barcode found in image</string>
+    <string name="scan_camera_permission_required">Camera permission is required to scan codes</string>
+
+    <!-- Generate Screen -->
+    <string name="generate_title">Create QR Code</string>
+    <string name="generate_type_label">QR Content Type</string>
+    <string name="type_text">Text</string>
+    <string name="type_url">URL</string>
+    <string name="type_wifi">Wi-Fi</string>
+    <string name="type_contact">Contact</string>
+
+    <!-- Inputs -->
+    <string name="hint_text">Enter text message or notes</string>
+    <string name="hint_url">https://example.com</string>
+    <string name="hint_wifi_ssid">Network Name (SSID)</string>
+    <string name="hint_wifi_password">Wi-Fi Password</string>
+    <string name="wifi_security_wpa">WPA/WPA2</string>
+    <string name="wifi_security_wep">WEP</string>
+    <string name="wifi_security_none">None (Open)</string>
+    <string name="hint_contact_name">Full Name</string>
+    <string name="hint_contact_phone">Phone Number</string>
+    <string name="hint_contact_email">Email Address (Optional)</string>
+
+    <!-- Customization -->
+    <string name="color_picker_label">QR Code Color</string>
+    <string name="color_black">Black</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_red">Red</string>
+    <string name="color_green">Green</string>
+
+    <string name="format_picker_label">Output Image Format</string>
+    <string name="format_png">PNG</string>
+    <string name="format_jpg">JPG</string>
+
+    <string name="generate_btn_action">Generate QR Code</string>
+    <string name="generate_btn_save">Save to Downloads</string>
+    <string name="generate_btn_share">Share</string>
+    <string name="generate_error_empty">Please enter input to generate a QR code</string>
+    <string name="generate_toast_saved">QR Code saved to Downloads folder!</string>
+    <string name="generate_toast_save_failed">Failed to save image</string>
+    <string name="share_chooser_title">Share QR Code via</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Scan &amp; Generation History</string>
+    <string name="history_empty">No saved codes yet.
+Scan or generate a code to see it here!</string>
+    <string name="history_dialog_title">QR Code Details</string>
+    <string name="history_dialog_delete">Delete</string>
+    <string name="history_dialog_close">Close</string>
+    <string name="history_deleted_toast">Item deleted</string>
+    <string name="history_delete_all_confirm_title">Clear History</string>
+    <string name="history_delete_all_confirm_msg">Are you sure you want to delete all saved scan history? This action cannot be undone.</string>
+    <string name="history_delete_all_positive">Delete All</string>
+    <string name="history_delete_all_negative">Cancel</string>
+    <string name="history_all_cleared_toast">All history items cleared</string>
+
+    <!-- Top Menu -->
+    <string name="menu_share_app">Share App</string>
+    <string name="menu_rate_us">Rate Us</string>
+    <string name="menu_delete_all">Delete All</string>
+    <string name="share_app_text">Check out ScanGenius - Fast and offline QR &amp; Barcode Scanner! Download now: https://play.google.com/store/apps/details?id=com.scan.genius</string>
+
+    <!-- Settings -->
+    <string name="menu_settings">Settings</string>
+    <string name="settings_title">Theme Settings</string>
+    <string name="settings_theme_label">Choose Appearance</string>
+    <string name="settings_theme_desc">Override system default to force Light or Dark mode</string>
+    <string name="theme_system">System Default</string>
+    <string name="theme_light">Light Mode</string>
+    <string name="theme_dark">Dark Mode</string>
+    <string name="settings_btn_apply">Done</string>
+
+    <!-- AdMob Test Unit IDs -->
+    <string name="admob_banner_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_id">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_native_id">ca-app-pub-3940256099942544/2247696110</string>
+    <string name="ad_badge">Ad</string>
+    <string name="ad_sponsored">Sponsored</string>
+    <string name="ad_install">Install</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:title="@string/menu_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_share_app"
+        android:title="@string/menu_share_app"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_rate_us"
+        android:title="@string/menu_rate_us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_delete_all"
+        android:title="@string/menu_delete_all"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_privacy_policy"
+        android:title="Privacy Policy"
+        app:showAsAction="never" />
+</menu>
